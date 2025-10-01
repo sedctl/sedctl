@@ -1,0 +1,9 @@
+[package]
+name = "sedctl_cli"
+version = "0.0.0"
+description = "[WIP] CLI frontend library for sedctl project"
+rust-version.workspace = true
+edition.workspace = true
+license.workspace = true
+authors.workspace = true
+repository.workspace = true
