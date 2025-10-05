@@ -5,18 +5,36 @@ version = 4
 [[package]]
 name = "sedctl"
 version = "0.0.0"
+dependencies = [
+ "sedctl_api",
+ "sedctl_backends",
+ "sedctl_cli",
+ "sedctl_macros",
+ "sedctl_tcg_storage",
+]
 
 [[package]]
 name = "sedctl_api"
 version = "0.0.0"
+dependencies = [
+ "sedctl_tcg_storage",
+]
 
 [[package]]
 name = "sedctl_backends"
 version = "0.0.0"
+dependencies = [
+ "sedctl_tcg_storage",
+]
 
 [[package]]
 name = "sedctl_cli"
 version = "0.0.0"
+dependencies = [
+ "sedctl_api",
+ "sedctl_backends",
+ "sedctl_tcg_storage",
+]
 
 [[package]]
 name = "sedctl_macros"
@@ -25,3 +43,6 @@ version = "0.0.0"
 [[package]]
 name = "sedctl_tcg_storage"
 version = "0.0.0"
+dependencies = [
+ "sedctl_macros",
+]

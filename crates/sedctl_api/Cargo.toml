@@ -7,3 +7,6 @@ edition.workspace = true
 license.workspace = true
 authors.workspace = true
 repository.workspace = true
+
+[dependencies]
+sedctl_tcg_storage.workspace = true

@@ -7,3 +7,10 @@ edition.workspace = true
 license.workspace = true
 authors.workspace = true
 repository.workspace = true
+
+[dependencies]
+sedctl_macros.workspace = true
+sedctl_tcg_storage.workspace = true
+sedctl_backends.workspace = true
+sedctl_api.workspace = true
+sedctl_cli.workspace = true
