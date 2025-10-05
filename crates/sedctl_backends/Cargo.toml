@@ -1,6 +1,6 @@
 [package]
 name = "sedctl_backends"
-version = "0.0.0"
+version = "0.0.1"
 description = "[WORK IN PROGRESS | NOT USABLE YET] The TCG Storage Interface Interactions (SIIS) implementation for sedctl_tcg_storage crate"
 rust-version.workspace = true
 edition.workspace = true

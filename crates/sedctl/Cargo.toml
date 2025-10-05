@@ -1,6 +1,6 @@
 [package]
 name = "sedctl"
-version = "0.0.0"
+version = "0.0.1"
 description = "[WORK IN PROGRESS | NOT USABLE YET] Library and CLI tool to interface with TCG Storage capable drives"
 rust-version.workspace = true
 edition.workspace = true

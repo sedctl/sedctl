@@ -1,6 +1,6 @@
 [package]
 name = "sedctl_cli"
-version = "0.0.0"
+version = "0.0.1"
 description = "[WORK IN PROGRESS | NOT USABLE YET] CLI frontend library for sedctl project"
 rust-version.workspace = true
 edition.workspace = true

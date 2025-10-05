@@ -1,6 +1,6 @@
 [package]
 name = "sedctl_api"
-version = "0.0.0"
+version = "0.0.1"
 description = "[WORK IN PROGRESS | NOT USABLE YET] The api library for the sedctl project"
 rust-version.workspace = true
 edition.workspace = true

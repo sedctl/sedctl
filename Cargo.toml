@@ -11,8 +11,8 @@ repository = "https://github.com/sedctl/sedctl"
 
 [workspace.dependencies]
 # in-tree crates
-sedctl_macros      = { version = "0.0.0", path = "./crates/sedctl_macros" }
-sedctl_tcg_storage = { version = "0.0.0", path = "./crates/sedctl_tcg_storage" }
-sedctl_backends    = { version = "0.0.0", path = "./crates/sedctl_backends" }
-sedctl_api         = { version = "0.0.0", path = "./crates/sedctl_api" }
-sedctl_cli         = { version = "0.0.0", path = "./crates/sedctl_cli" }
+sedctl_macros      = { version = "0.0.1", path = "./crates/sedctl_macros" }
+sedctl_tcg_storage = { version = "0.0.1", path = "./crates/sedctl_tcg_storage" }
+sedctl_backends    = { version = "0.0.1", path = "./crates/sedctl_backends" }
+sedctl_api         = { version = "0.0.1", path = "./crates/sedctl_api" }
+sedctl_cli         = { version = "0.0.1", path = "./crates/sedctl_cli" }
